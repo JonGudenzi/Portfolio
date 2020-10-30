@@ -8,7 +8,14 @@ body {
     background-image: linear-gradient(rgb(209, 207, 90), rgb(74, 141, 141));
 }
 
+.headerfixed{
+    
+    position: fixed;
+    width: 100%;
+}
+
 .header {
+    
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-image: linear-gradient(rgb(209, 207, 90), rgb(74, 141, 141));
@@ -16,6 +23,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-end;
+    
 }
 
 .jon {
@@ -54,7 +62,7 @@ p {
 }
 
 .palms {
-    height: 275px;
+    height: 400px;
     width: 100%;
     margin-bottom: 25px;
     background: url("../assets/images/sunny-day-through-palm-trees.jpg");
@@ -62,13 +70,13 @@ p {
     background-position: center;
 }
 
-.content {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
-}
+
+
+
+
 
 .leftaside {
+    border-radius: 20px;
     margin-left: 20px;
     padding: 20px;
     clear: both;
@@ -77,50 +85,139 @@ p {
     height: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #accfe2;
-    display: flex;
-    flex-wrap: wrap;
+    /* display: flex;
+    flex-wrap: wrap; */
+    
 }
 
 .leftaside h3{
     font-size: 38px;
+    
 }
 
 .aboutmeleft {
+    padding: 50px;
+    height: 300px;
     margin-bottom: 32px;
     color: #ffffff;
+    
 
 }
 
 .workleft{
+    padding: 50px;
+    height: 870px;
     margin-bottom: 32px;
     color: #ffffff;
+    
 }
 
 .contactleft {
+    height: 170px;
     margin-bottom: 32px;
     color: #ffffff;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.content {
+
+    width: 75%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 20px;
 }
 
 #aboutmeright {
+    border-radius: 20px;
     margin-bottom: 20px;
+    margin-left: 30px;
     padding: 50px;
     height: 300px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #accfe2;
     color: #ffffff;
+    
 }
 
 #workright {
+    border-radius: 20px;
     margin-bottom: 20px;
+    margin-left: 30px;
     padding: 50px;
-    height: 300px;
+    height: 500px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #accfe2;
     color: #ffffff;
 }
 
-#contactright {
+.worksmallflex1{
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 20px;
+    justify-content: space-between;
+}
+
+.workrightsmall1{
+    border-radius: 20px;
     margin-bottom: 20px;
+    margin-left: 140px;
+    padding: 50px;
+    height: 150px;
+    width: 400px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #244050;
+    color: #ffffff;
+}
+
+
+.worksmallflex2{
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 20px;
+    /* justify-content: space-between; */
+}
+
+.workrightsmall2{
+    border-radius: 20px;
+    margin-bottom: 20px;
+    margin-left: 140px;
+    padding: 50px;
+    height: 150px;
+    width: 400px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #244050;
+    color: #ffffff;
+}
+
+
+
+
+
+
+
+
+
+
+#contactright {
+    border-radius: 20px;
+    margin-bottom: 20px;
+    margin-left: 30px;
     padding: 50px;
     height: 300px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
