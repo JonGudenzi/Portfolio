@@ -9,7 +9,7 @@ body {
 display: flex;
 flex-wrap: wrap;
 }
-
+        /* beging of header including nav and page breaks */
 header{
     width: 100%;
 }
@@ -78,7 +78,6 @@ header{
 
 }
 
-
 a {
     color: #ffffff;
     text-decoration: none;
@@ -88,7 +87,7 @@ p {
     font-size: 32px;
 }
  
-/* header image */
+/* 2nd header - includes self picture, background image, and welcome box */
 .palms {
     display: flex;
     flex-wrap: wrap;
@@ -125,7 +124,7 @@ p {
     margin-left: 60px;
     margin-top: 25px;
 }
-
+    /* begining of the main section - includes about me, work, and contact containers */
 #aboutmeright {
     border: darkturquoise solid 5px;
     border-radius: 20px;
@@ -346,7 +345,7 @@ p {
 }
 
 
-/* right side contacts / links */
+    /* contact container */
 .contact{
     display: flex;
     flex-wrap: wrap;
@@ -371,7 +370,8 @@ p {
     flex-wrap: wrap;
     justify-content: space-between;
 }
-
+ 
+/* links inside contact container */
 .email a{
     font-size: 30px;
     color: rgb(18, 133, 127);
