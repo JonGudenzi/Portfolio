@@ -4,8 +4,6 @@
     margin: 0;
 }
 
-
-
 body {
     background-image: linear-gradient(rgb(209, 207, 90)5%, rgb(74, 141, 141)75%);
 display: flex;
@@ -21,6 +19,7 @@ header{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-image: linear-gradient(rgb(209, 207, 90), rgb(74, 141, 141));
     color: black;
+    height: 125px;
 }
 
 .jon{
@@ -53,12 +52,11 @@ header{
 
 .header div ul {
     list-style-type: none;
-    padding: 20px;
-    
+    padding: 20px; 
 }
 
 @media screen and (max-width: 1005px){
-    .header div ul{
+    .header nav ul{
         font-size: 75%;
     }
 }
@@ -72,9 +70,14 @@ header{
 .header div ul li {
     display: inline;
     margin-left: 25px;
-    margin-right: 40px;
-    
+    margin-right: 40px;  
 }
+
+.header div ul li:hover{
+    border-bottom: 4px solid rgb(94, 240, 215);
+
+}
+
 
 a {
     color: #ffffff;
@@ -87,77 +90,76 @@ p {
  
 /* header image */
 .palms {
+    display: flex;
+    flex-wrap: wrap;
     height: 250px;
     width: 100%;
     margin-bottom: 25px;
     background: url("../assets/images/sunny-day-through-palm-trees.jpg");
     background-size: cover;
     background-position: center;
+    background-size: cover;
+}
+
+.header2 {
+    position: absolute;
+    border-radius: 50px;
+    height: 115px;
+    width: 500px;
+    text-align: center;
+    margin-top: 75px;
+    margin-left: 800px;
+    font-size: 48px;
+    color: white;
+    background-image: linear-gradient(rgb(209, 207, 90), rgb(74, 141, 141));
 }
 
 .self{
     height: 200px;
     width: 200px;
-    background-color: cornflowerblue;
+    border-radius: 50px;
+    background-image: url("../assets/images/20201031_160544.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     margin-left: 60px;
-}
-
-.header2{
-    text-align: center;
-    height: auto;
-    width: 200px;
-    background-color: cornflowerblue;
     margin-top: 25px;
-    margin-left: 800px;
-  
 }
-
-
-
-/* aside{
-    height: 100%;
-    width: 20%;
-    background-color: darkcyan;
-    margin-top: 380px;
-    position: absolute;
-}
-
-.aboutmetitle{
-    height: 300px;
-    padding: 50px;
-} */
 
 #aboutmeright {
     border: darkturquoise solid 5px;
     border-radius: 20px;
-    margin: 0px 30px 20px 550px;
+    margin: 0px 30px 20px 350px;
     padding: 20px;
     height: auto;
     width: 950px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-image: linear-gradient(rgb(172, 207, 226)60%,rgb(252, 216, 249));
     color: black;
-
-    
 }
 
 #workright {
     width: 950px;
     border: darkturquoise solid 5px;
     border-radius: 20px;
-    margin-bottom: 20px;
-    margin-left: 550px;
+    margin: 0px 30px 20px 350px;
     padding: 50px;
     height: 500px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-image: url("../assets/images/lines-of-waves-in-southeast-asia.jpg");
     background-size: cover;
     color: #ffffff;
+    display: block;
+}
+
+#workright:hover{
+    border: rgb(94, 240, 215) solid 8px;
+    opacity: .8;
 }
 
 .workdesc{
     background-color: darkturquoise;
-    height: 100px;
+    height: 80px;
     width: 200px;
     margin-top: 300px;
     border-radius: 20px;
@@ -179,13 +181,14 @@ p {
     height: auto;
     display: flex;
     margin-right: 120px;
-    margin-left: 550px;
+    margin-left: 350px;
     flex-wrap: wrap;
     justify-content: space-around;
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
         /* child 1 in flexbox */
+
 .child1{
     margin-bottom: 15px;
     width: 400px;
@@ -195,13 +198,19 @@ p {
     background-size: cover;
     border-radius: 20px;
     border: darkturquoise solid 5px;
+    display: block;
+}
+
+.child1:hover{
+    border: rgb(94, 240, 215) solid 8px;
+    opacity: .8;
 }
 
 .title1{
     height: 80px;
     width: 170px;
     background-color: darkturquoise;
-    margin-top: 50px;
+    margin-top: 55px;
     margin-left: 20px;
     border-radius: 20px;
 }
@@ -210,13 +219,14 @@ p {
     font-size: 26px;
     text-align: center;
     color: white;
-    }
+}
     
 .child1 p{
     font-size: 22px;
     text-align: center;
     color: white;
-    }
+}
+
         /* child 2 in flexbox */
 .child2{
     margin-bottom: 15px;
@@ -227,13 +237,19 @@ p {
     background-size: cover;
     border-radius: 20px;
     border: darkturquoise solid 5px;
+    display: block;
+}
+
+.child2:hover{
+    border: rgb(94, 240, 215) solid 8px;
+    opacity: .8;
 }
 
 .title2{
     height: 80px;
     width: 170px;
     background-color: darkturquoise;
-    margin-top: 50px;
+    margin-top: 55px;
     margin-left: 20px;
     border-radius: 20px;
 }
@@ -242,14 +258,14 @@ p {
     font-size: 26px;
     text-align: center;
     color: white;
-    }
+}
     
 .child2 p{
     font-size: 22px;
     text-align: center;
     color: white;
     word-wrap: break-word;
-    }
+}
 
         /* child 3 in flexbox */
 .child3{
@@ -261,13 +277,19 @@ p {
     background-size: cover;
     border-radius: 20px;
     border: darkturquoise solid 5px;
+    display: block;
+}
+
+.child3:hover{
+    border: rgb(94, 240, 215) solid 8px;
+    opacity: .8;
 }
 
 .title3{
     height: 80px;
     width: 170px;
     background-color: darkturquoise;
-    margin-top: 50px;
+    margin-top: 55px;
     margin-left: 20px;
     border-radius: 20px;
 }
@@ -276,13 +298,13 @@ p {
     font-size: 24px;
     text-align: center;
     color: white;
-    }
+}
     
 .child3 p{
     font-size: 22px;
     text-align: center;
     color: white;
-    }
+}
 
 
         /* child 4 in flexbox */
@@ -297,11 +319,16 @@ p {
     border: darkturquoise solid 5px;
 }
 
+.child4:hover{
+    border: rgb(94, 240, 215) solid 8px;
+    opacity: .8;
+}
+
 .title4{
     height: 80px;
     width: 170px;
     background-color: darkturquoise;
-    margin-top: 50px;
+    margin-top: 55px;
     margin-left: 20px;
     border-radius: 20px;
 }
@@ -310,20 +337,30 @@ p {
     font-size: 26px;
     text-align: center;
     color: white;
-    }
+}
     
 .child4 p{
     font-size: 22px;
     text-align: center;
     color: white;
-    }
+}
 
 
 /* right side contacts / links */
+.contact{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-left: 50px;
+    font-size: 36px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
 #contactright{
     border: darkturquoise solid 5px;
     border-radius: 20px;
-    margin: 0px 30px 20px 550px;
+    margin: 0px 30px 20px 80px;
+    font-size: 20px;
     padding: 50px;
     height: auto;
     width: 950px;
@@ -347,4 +384,8 @@ p {
 
 .email a:hover{
 color: palegreen;
+}
+
+.github a:hover{
+    color: palegreen;
 }
