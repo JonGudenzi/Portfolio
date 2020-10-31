@@ -4,52 +4,76 @@
     margin: 0;
 }
 
+
+
 body {
-    background-image: linear-gradient(rgb(209, 207, 90), rgb(74, 141, 141));
+    background-image: linear-gradient(rgb(209, 207, 90)5%, rgb(74, 141, 141)75%);
+display: flex;
+flex-wrap: wrap;
 }
 
-.headerfixed{
-    
-    position: fixed;
+header{
     width: 100%;
 }
 
 .header {
-    
-    padding: 20px;
+    padding-top: 10px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-image: linear-gradient(rgb(209, 207, 90), rgb(74, 141, 141));
     color: black;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-end;
-    
 }
 
-.jon {
-    display: inline-block;
-    flex-grow: 2;
+.jon{
+    margin-left: 30px;
+    float: left;
+}
+
+@media screen and (max-width: 1005px){
+    .jon h1{
+        font-size: 75%;
+    }
+}
+
+@media screen and (max-width: 260px){
+    .jon h1{
+        font-size: 50%;
+    }
 }
 
 .header div{
+    display: flex;
+    flex-wrap: wrap;
     padding-top: 10px;
     margin-left: 55px;
     margin-right: 30px;
-    float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 36px;
-    
+    justify-content: flex-end;
 }
 
 .header div ul {
     list-style-type: none;
     padding: 20px;
+    
+}
+
+@media screen and (max-width: 1005px){
+    .header div ul{
+        font-size: 75%;
+    }
+}
+
+@media screen and (max-width: 260px){
+    .header div ul{
+        font-size: 50%;
+    }
 }
 
 .header div ul li {
-    display: inline-block;
+    display: inline;
     margin-left: 25px;
     margin-right: 40px;
+    
 }
 
 a {
@@ -58,11 +82,12 @@ a {
 }
 
 p {
-    font-size: 16px;
+    font-size: 32px;
 }
-
+ 
+/* header image */
 .palms {
-    height: 400px;
+    height: 250px;
     width: 100%;
     margin-bottom: 25px;
     background: url("../assets/images/sunny-day-through-palm-trees.jpg");
@@ -70,183 +95,256 @@ p {
     background-position: center;
 }
 
+.self{
+    height: 200px;
+    width: 200px;
+    background-color: cornflowerblue;
+    margin-left: 60px;
+}
+
+.header2{
+    text-align: center;
+    height: auto;
+    width: 200px;
+    background-color: cornflowerblue;
+    margin-top: 25px;
+    margin-left: 800px;
+  
+}
 
 
 
-
-
-.leftaside {
-    border-radius: 20px;
-    margin-left: 20px;
-    padding: 20px;
-    clear: both;
-    float: left;
-    width: 20%;
+/* aside{
     height: 100%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #accfe2;
-    /* display: flex;
-    flex-wrap: wrap; */
-    
+    width: 20%;
+    background-color: darkcyan;
+    margin-top: 380px;
+    position: absolute;
 }
 
-.leftaside h3{
-    font-size: 38px;
-    
-}
-
-.aboutmeleft {
-    padding: 50px;
+.aboutmetitle{
     height: 300px;
-    margin-bottom: 32px;
-    color: #ffffff;
-    
-
-}
-
-.workleft{
     padding: 50px;
-    height: 870px;
-    margin-bottom: 32px;
-    color: #ffffff;
-    
-}
-
-.contactleft {
-    height: 170px;
-    margin-bottom: 32px;
-    color: #ffffff;
-    
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.content {
-
-    width: 75%;
-    display: flex;
-    flex-wrap: wrap;
-    margin-left: 20px;
-}
+} */
 
 #aboutmeright {
+    border: darkturquoise solid 5px;
     border-radius: 20px;
-    margin-bottom: 20px;
-    margin-left: 30px;
-    padding: 50px;
-    height: 300px;
+    margin: 0px 30px 20px 550px;
+    padding: 20px;
+    height: auto;
+    width: 950px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #accfe2;
-    color: #ffffff;
+    background-image: linear-gradient(rgb(172, 207, 226)60%,rgb(252, 216, 249));
+    color: black;
+
     
 }
 
 #workright {
+    width: 950px;
+    border: darkturquoise solid 5px;
     border-radius: 20px;
     margin-bottom: 20px;
-    margin-left: 30px;
+    margin-left: 550px;
     padding: 50px;
     height: 500px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #accfe2;
-    color: #ffffff;
-}
-
-.worksmallflex1{
-    width: auto;
-    display: flex;
-    flex-wrap: wrap;
-    margin-left: 20px;
-    justify-content: space-between;
-}
-
-.workrightsmall1{
-    border-radius: 20px;
-    margin-bottom: 20px;
-    margin-left: 140px;
-    padding: 50px;
-    height: 150px;
-    width: 400px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #244050;
-    color: #ffffff;
-}
-
-
-.worksmallflex2{
-    width: auto;
-    display: flex;
-    flex-wrap: wrap;
-    margin-left: 20px;
-    /* justify-content: space-between; */
-}
-
-.workrightsmall2{
-    border-radius: 20px;
-    margin-bottom: 20px;
-    margin-left: 140px;
-    padding: 50px;
-    height: 150px;
-    width: 400px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #244050;
-    color: #ffffff;
-}
-
-
-
-
-
-
-
-
-
-
-#contactright {
-    border-radius: 20px;
-    margin-bottom: 20px;
-    margin-left: 30px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #accfe2;
-    color: #ffffff;
-}
-
-#aboutmeright h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-#workright h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-#contactright h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.footer {
-    padding: 30px;
-    clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-image: url("../assets/images/lines-of-waves-in-southeast-asia.jpg");
+    background-size: cover;
+    color: #ffffff;
+}
+
+.workdesc{
+    background-color: darkturquoise;
+    height: 100px;
+    width: 200px;
+    margin-top: 300px;
+    border-radius: 20px;
+}
+
+.workdesc h3{
+    font-size: 32px;
     text-align: center;
 }
 
-.footer h2 {
-    font-size: 20px;
+.workdesc p{
+    padding: 10px;
+    font-size: 24px;
+}
+ 
+        /* start of flexbox */
+.flexboxparent{
+    width: 930px;
+    height: auto;
+    display: flex;
+    margin-right: 120px;
+    margin-left: 550px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+        /* child 1 in flexbox */
+.child1{
+    margin-bottom: 15px;
+    width: 400px;
+    height: 150px;
+    background-image: url("../assets/images/LEDwall.jpg");
+    background-repeat: repeat;
+    background-size: cover;
+    border-radius: 20px;
+    border: darkturquoise solid 5px;
+}
+
+.title1{
+    height: 80px;
+    width: 170px;
+    background-color: darkturquoise;
+    margin-top: 50px;
+    margin-left: 20px;
+    border-radius: 20px;
+}
+
+.child1 h3{
+    font-size: 26px;
+    text-align: center;
+    color: white;
+    }
+    
+.child1 p{
+    font-size: 22px;
+    text-align: center;
+    color: white;
+    }
+        /* child 2 in flexbox */
+.child2{
+    margin-bottom: 15px;
+    width: 400px;
+    height: 150px;
+    background-image: url("../assets/images/calculator.jpg");
+    background-repeat: repeat;
+    background-size: cover;
+    border-radius: 20px;
+    border: darkturquoise solid 5px;
+}
+
+.title2{
+    height: 80px;
+    width: 170px;
+    background-color: darkturquoise;
+    margin-top: 50px;
+    margin-left: 20px;
+    border-radius: 20px;
+}
+
+.child2 h3{
+    font-size: 26px;
+    text-align: center;
+    color: white;
+    }
+    
+.child2 p{
+    font-size: 22px;
+    text-align: center;
+    color: white;
+    word-wrap: break-word;
+    }
+
+        /* child 3 in flexbox */
+.child3{
+    margin-bottom: 15px;
+    width: 400px;
+    height: 150px;
+    background-image: url("../assets/images/pastelpuzzels.jpg");
+    background-repeat: repeat;
+    background-size: cover;
+    border-radius: 20px;
+    border: darkturquoise solid 5px;
+}
+
+.title3{
+    height: 80px;
+    width: 170px;
+    background-color: darkturquoise;
+    margin-top: 50px;
+    margin-left: 20px;
+    border-radius: 20px;
+}
+
+.child3 h3{
+    font-size: 24px;
+    text-align: center;
+    color: white;
+    }
+    
+.child3 p{
+    font-size: 22px;
+    text-align: center;
+    color: white;
+    }
+
+
+        /* child 4 in flexbox */
+.child4{
+    margin-bottom: 15px;
+    width: 400px;
+    height: 150px;
+    background-image: url("../assets/images/runbuddy.jpg");
+    background-repeat: repeat;
+    background-size: cover;
+    border-radius: 20px;
+    border: darkturquoise solid 5px;
+}
+
+.title4{
+    height: 80px;
+    width: 170px;
+    background-color: darkturquoise;
+    margin-top: 50px;
+    margin-left: 20px;
+    border-radius: 20px;
+}
+
+.child4 h3{
+    font-size: 26px;
+    text-align: center;
+    color: white;
+    }
+    
+.child4 p{
+    font-size: 22px;
+    text-align: center;
+    color: white;
+    }
+
+
+/* right side contacts / links */
+#contactright{
+    border: darkturquoise solid 5px;
+    border-radius: 20px;
+    margin: 0px 30px 20px 550px;
+    padding: 50px;
+    height: auto;
+    width: 950px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-image: linear-gradient(rgb(172, 207, 226)60%,rgb(252, 216, 249));
+    color: black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.email a{
+    font-size: 30px;
+    color: rgb(18, 133, 127);
+}
+
+.github a{
+    font-size: 30px;
+    color: rgb(18, 133, 127);
+}
+
+.email a:hover{
+color: palegreen;
 }
