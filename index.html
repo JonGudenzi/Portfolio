@@ -1,111 +1,30 @@
 <!DOCTYPE html>
-<html lang="en-us">
-
+<html lang="en">
 <head>
-    <meta charset="UTF-8" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/style.css">
     <title>Jon Gudenzi</title>
 </head>
-
 <body>
-<!-- header including nav bar -->
-    <header>
-        <div class="header">
-            <div class="jon"><h1>Jon Gudenzi</h1></div>
-            <div>
-                <ul>
-                    <li>
-                        <a href="#aboutmeright">About Me</a>
-                    </li>
-                    <li>
-                        <a href="#workright">Work</a>
-                    </li>
-                    <li>
-                        <a href="#contactright">Contact</a>
-                    </li>
-                    <li>
-                        <a href="">Resume</a>
-                    </li>
-                </ul>
-            </div>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light headerNav">
+        <div class="container-fluid">
+          <h1 class="name nameJon">Jon Gudenzi</h1>
+            <ul class="navbar-nav navList col-5">
+              <li class="nav-item">
+                <a class="navText" aria-current="page" href="#">About Me</a>
+              </li>
+              <li class="nav-item">
+                <a class="navText " href="#">Work</a>
+              </li>
+              <li class="nav-item">
+                <a class="navText" href="#">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a class="navText" href="#">Resume</a>
+              </li>
+              
+            </ul>
         </div>
-    </header>
-    
-    <!-- second header with image -->
-        <div class="palms">
-            <div class="self"></div>
-                <div class="header2"><h1>Welcome</h1></div>
-        </div>
-    
-        
-            <!-- about me container -->
-            <div id="aboutmeright">
-                <h1>About Me</h1>
-                <p>
-                    Jon is an aspiring developer who currently works a full time job in inventory and logistics.  He has been with his current employer for 15 years and has peaked at performance and growth within the organization. He has chosen a new career path in computer programming with a focus on web development because he enjoys the challenging and creative outlet.
-                </p>
-            </div>
-    
-        
-          <!-- large work container -->
-        <a href="" id="workright">
-            <h1>Work</h1>
-            <div class="workdesc">
-                <h3>Surf Report</h3>
-                <p>MERM Stack</p>
-            </div>
-        </a>
-     
-            <!-- small work containers in flexbox -->
-    <section class="flexboxparent">
-        <a href="" class="child1">
-            <div class="title1">
-                <h3>LED Wall</h3>
-                <p>Node/IoT</p>
-            </div>
-        </a>
-        <a href="" class="child2">
-            <div class="title2">
-                <h3>Calculator</h3>
-                <p>React/JavaScript/CSS</p>
-            </div>
-        </a>
-        <a href="" class="child3">
-            <div class="title3">
-                <h3>Pastel Puzzels</h3>
-                <p>MERN Stack</p>
-            </div>
-        </a>
-        <a href="" class="child4">
-            <div class="title4">
-                <h3>Run Buddy</h3>
-                <p>HTML/CSS</p>
-            </div>
-        </a>
-    </section>
-        <!-- contact footer -->
-<section>
-    <div class="contact">
-        <h2>Contact</h2>
-
-        <div id="contactright">
-            
-            <div class="phone">
-            <h1>Phone</h1>
-            <p>704-957-1641</p>
-            </div>
-            <div class="email">
-            <h1>Email</h1>
-           <a href="mailto:jongudenzi@gmail.com">jongudenzi@gmail.com</a>
-            </div>
-            <div class="github">
-            <h1>GitHub</h1>
-           <a href="https://github.com/JonGudenzi" target="https://github.com/JonGudenzi">JonGudenzi</a>
-            </div>
-        </div>
-    </div>
-</section>
- 
-</body>
-
-</html>
+      </nav>
