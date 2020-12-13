@@ -81,3 +81,36 @@ body{
     color: black;
     font-size: 24px;
 }
+
+#workContent {
+    border: darkturquoise solid 5px;
+    border-radius: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-image: url("../assets/images/lines-of-waves-in-southeast-asia.jpg");
+    background-size: cover;
+    color: #ffffff;
+    display: block;
+}
+
+#workContent:hover{
+    border: rgb(94, 240, 215) solid 8px;
+    opacity: .8;
+}
+
+.workdesc{
+    background-color: darkturquoise;
+    height: auto;
+    width: 250px;
+    margin-top: 300px;
+    border-radius: 20px;
+}
+
+.workdesc h3{
+    font-size: 32px;
+    text-align: center;
+}
+
+.workdesc p{
+    padding: 10px;
+    font-size: 24px;
+}
