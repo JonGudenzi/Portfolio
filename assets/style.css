@@ -193,3 +193,14 @@ body{
     color: white;
     word-wrap: break-word;
 }
+
+#contactContent{
+    border: darkturquoise solid 5px;
+    border-radius: 20px;
+    margin: 0px 30px 20px 80px;
+    font-size: 20px;
+    padding: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-image: linear-gradient(rgb(172, 207, 226)60%,rgb(252, 216, 249));
+    color: black;
+}
