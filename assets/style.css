@@ -60,18 +60,6 @@ body{
     font-size: 36px;
 }
 
-.my-container{
-    border: 5px solid green;
-}
-
-.my-row{
-    border: 1px solid purple;
-}
-
-.my-col{
-    border: 2px solid black;
-}
-
 #aboutMeContent {
     border: darkturquoise solid 5px;
     border-radius: 20px;
@@ -86,7 +74,7 @@ body{
     border: darkturquoise solid 5px;
     border-radius: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-image: url("../assets/images/lines-of-waves-in-southeast-asia.jpg");
+    background-image: url("../assets/images/weatherDashboard.PNG");
     background-size: cover;
     color: #ffffff;
     display: block;
@@ -98,23 +86,21 @@ body{
 }
 
 .workdesc{
-    background-color: darkturquoise;
-    height: auto;
-    width: 250px;
     margin-top: 300px;
     border-radius: 20px;
 }
 
 .workdesc h3{
-    font-size: 32px;
-    text-align: center;
-}
-
-.workdesc p{
     padding: 10px;
     font-size: 24px;
 }
 
+.workdesc p{
+    padding: 10px;
+    font-size: 18px;
+}
+
+/* begining of 4 smaller work containers */
 #workSmOne{
     margin-bottom: 15px;
     width: auto;
