@@ -41,7 +41,6 @@ body{
     background-image: url("../assets/images/20201031_160544.jpg");
     margin-top: 25px;
     margin-right: 50px;
-
 }
 
 .palms{
@@ -74,10 +73,12 @@ body{
     border: darkturquoise solid 5px;
     border-radius: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-image: url("../assets/images/weatherDashboard.PNG");
+    background-image: url("../assets/images/musicJunkies.PNG");
     background-size: cover;
     color: #ffffff;
     display: block;
+    text-decoration: none;
+
 }
 
 #workContent:hover{
@@ -86,18 +87,30 @@ body{
 }
 
 .workdesc{
-    margin-top: 300px;
+    border-radius: 20px;
+    height: 500px;
+}
+
+#largeWorkContainerTitle{
+    width: 100px;
+    padding: 5px;
+    background-color: darkturquoise;
+    margin-top: 0px;
+    margin-left: 80%;
     border-radius: 20px;
 }
 
-.workdesc h3{
-    padding: 10px;
-    font-size: 24px;
+#largeWorkContainerTitle h3{
+    font-size: 18px;
+    text-align: center;
+    color: black;
+    
 }
 
-.workdesc p{
-    padding: 10px;
-    font-size: 18px;
+#largeWorkContainerTitle p{
+    font-size: 14px;
+    text-align: center;
+    color: black;
 }
 
 /* begining of 4 smaller work containers */
@@ -105,12 +118,13 @@ body{
     margin-bottom: 15px;
     width: auto;
     height: 150px;
-    background-image: url("../assets/images/LEDwall.jpg");
+    background-image: url("../assets/images/passwordGenerator.PNG");
     background-repeat: repeat;
     background-size: cover;
     border-radius: 20px;
     border: darkturquoise solid 5px;
     display: block;
+    text-decoration: none;
 }
 
 #workSmOne:hover{
@@ -118,30 +132,106 @@ body{
     opacity: .8;
 }
 
-#title1{
-    height: 80px;
-    width: 170px;
+.title1{
+    width: 100px;
+    padding: 5px;
     background-color: darkturquoise;
-    margin-top: 55px;
-    margin-left: 20px;
+    margin-top: 0px;
+    margin-left: 70%;
     border-radius: 20px;
 }
 
 #workSmOne h3{
-    font-size: 26px;
+    font-size: 20px;
     text-align: center;
-    color: white;
+    color: black;
 }
     
 #workSmOne p{
-    font-size: 22px;
+    font-size: 10px;
     text-align: center;
-    color: white;
+    color: black;
 }
 
-
-       
 #workSmTwo{
+    margin-bottom: 15px;
+    width: auto;
+    height: 150px;
+    background-image: url("../assets/images/weatherDashboard.PNG");
+    background-repeat: repeat;
+    background-size: cover;
+    border-radius: 20px;
+    border: darkturquoise solid 5px;
+    display: block;
+    text-decoration: none;
+}
+
+#workSmTwo:hover{
+    border: rgb(94, 240, 215) solid 8px;
+    opacity: .8;
+}
+
+.title2{
+    width: 100px;
+    padding: 5px;
+    background-color: darkturquoise;
+    margin-top: 0px;
+    margin-left: 70%;
+    border-radius: 20px;
+}
+
+#workSmTwo h3{
+    font-size: 20px;
+    text-align: center;
+    color: black;
+}
+    
+#workSmTwo p{
+    font-size: 10px;
+    text-align: center;
+    color: black;
+}
+
+#workSmThree{
+    margin-bottom: 15px;
+    width: auto;
+    height: 150px;
+    background-image: url("../assets/images/workDay.PNG");
+    background-repeat: repeat;
+    background-size: cover;
+    border-radius: 20px;
+    border: darkturquoise solid 5px;
+    display: block;
+    text-decoration: none;
+}
+
+#workSmThree:hover{
+    border: rgb(94, 240, 215) solid 8px;
+    opacity: .8;
+}
+
+.title3{
+    width: 100px;
+    padding: 5px;
+    background-color: darkturquoise;
+    margin-top: 0px;
+    margin-left: 70%;
+    border-radius: 20px;
+}
+
+#workSmThree h3{
+    font-size: 20px;
+    text-align: center;
+    color: black;
+}
+    
+#workSmThree p{
+    font-size: 10px;
+    text-align: center;
+    color: black;
+}
+
+#workSmFour{
     margin-bottom: 15px;
     width: auto;
     height: 150px;
@@ -151,33 +241,33 @@ body{
     border-radius: 20px;
     border: darkturquoise solid 5px;
     display: block;
+    text-decoration: none;
 }
 
-#workSmTwo:hover{
+#workSmFour:hover{
     border: rgb(94, 240, 215) solid 8px;
     opacity: .8;
 }
 
-#title2{
-    height: 80px;
-    width: 170px;
+.title4{
+    width: 100px;
+    padding: 5px;
     background-color: darkturquoise;
-    margin-top: 55px;
-    margin-left: 20px;
+    margin-top: 0px;
+    margin-left: 70%;
     border-radius: 20px;
 }
 
-#workSmTwo h3{
-    font-size: 26px;
+#workSmFour h3{
+    font-size: 20px;
     text-align: center;
-    color: white;
+    color: black;
 }
     
-#workSmTwo p{
-    font-size: 22px;
+#workSmFour p{
+    font-size: 10px;
     text-align: center;
-    color: white;
-    word-wrap: break-word;
+    color: black;
 }
 
 #contactContent{
