@@ -11,7 +11,7 @@ This website is a portfolio of myself and shows the working progress of my devel
 <br>
 <br>
 
-It provides a navbar with links that will direct you to corresponding parts of the page.
+It provides a navbar with links that will direct you to corresponding parts of the page including a downloadable resume.
 <br>
 <img src="assets\images\nav.PNG" width="600" height="100">
 <br>
@@ -23,7 +23,7 @@ This page has 3 main sections that will provide information for the visitor.  An
 <br>
 <br>
 <br>
-It also provides a work section that has links to some of the development projects I have done.
+It also provides a work section that has links to some of the development projects I created or participated in.
 <br>
 <img src="assets\images\work.PNG" width="500" height="250">
 <br>
