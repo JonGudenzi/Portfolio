@@ -1,36 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/style.css">
     <title>Jon Gudenzi</title>
 </head>
+
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light headerNav">
         <div class="container-fluid">
-          <h1 class="name nameJon">Jon Gudenzi</h1>
+            <h1 class="name nameJon">Jon Gudenzi</h1>
             <ul class="navbar-nav navList col-5">
-              <li class="nav-item">
-                <a class="navText" aria-current="page" href="#aboutMeNav">About Me</a>
-              </li>
-              <li class="nav-item">
-                <a class="navText " href="#workNav">Work</a>
-              </li>
-              <li class="nav-item">
-                <a class="navText" href="#contactNav">Contact</a>
-              </li>
-              <li class="nav-item">
-                <a class="navText" href="./assets/Resume.pdf" download="Jon Gudenzi Resume">Resume</a>
+                <li class="nav-item">
+                    <a class="navText" aria-current="page" href="#aboutMeNav">About Me</a>
+                </li>
+                <li class="nav-item">
+                    <a class="navText " href="#workNav">Work</a>
+                </li>
+                <li class="nav-item">
+                    <a class="navText" href="#contactNav">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a class="navText" href="./assets/Resume.pdf" target="_blank">Resume</a>
 
-              </li>
-              
+                </li>
+
             </ul>
         </div>
-      </nav>
+    </nav>
 
-      <div class="jumbotron jumbotron-fluid jumboEl headerEl palms">
+    <div class="jumbotron jumbotron-fluid jumboEl headerEl palms">
         <div class="container">
             <img class="self" src="assets/images/20201031_160544.jpg" alt="Jon Gudenzi">
         </div>
@@ -39,73 +42,111 @@
     <div class="container my-container">
         <div class="row justify-content-around my-row">
             <div class="col-md-3 my-col">
-               <h1 id="aboutMeNav">About Me</h1>
+                <h1 id="aboutMeNav">About Me</h1>
             </div>
             <div class="col-md-9 my-col" id="aboutMeContent">
-                Jon is an aspiring developer who currently works a full time job in inventory and logistics. He has been with his current employer for 15 years and has peaked at performance and growth within the organization. He has chosen a new career path in computer programming with a focus on web development because he enjoys the challenging and creative outlet.
+                Jon is an aspiring developer who currently works a full time job in inventory and logistics. He has been
+                with his current employer for 15 years and has peaked at performance and growth within the organization.
+                He has chosen a new career path in computer programming with a focus on web development because he
+                enjoys the challenging and creative outlet.
             </div>
         </div>
     </div>
-<br>
-<!-- large work container -->
-    <div class="container my-container">     
+    <br>
+    <!-- large work container -->
+    <div class="container my-container">
         <div class="row justify-content-around my-row">
-            <div class="col-md-2 my-col">
+            <div class="col-md-3 my-col">
                 <h1 id="workNav">Work</h1>
             </div>
-            <div class="col-md-8 my-col">
-                <a href="https://nsc9605.github.io/MusicJunkies/#modalIntro"target="https://nsc9605.github.io/MusicJunkies/#modalIntro" id="workContent">
-                    <div class="workdesc">
-                        <div id="largeWorkContainerTitle">
-                        <h3>Music Junkies Project</h3>
-                        <p>APIs / Jquery</p>
+            <div class="col-md-9 my-col">
+                <div id="workContent">
+                    <a id="largeWorkContainerTitle" href="https://nsc9605.github.io/MusicJunkies/#modalIntro"
+                        target="https://nsc9605.github.io/MusicJunkies/#modalIntro">
+                        <div class="lgProject">
+                            <h3>Music Junkies Project</h3>
+                            <p>APIs / Jquery</p>
+                        </div>
+                    </a>
+                    <div class="githubLink">
+                        <a class="githubText" href="https://github.com/JonGudenzi/MusicJunkies"
+                            target="https://github.com/JonGudenzi/MusicJunkies">Github Repo</a>
                     </div>
-                    </div>
-                </a>
+                </div>
             </div>
         </div>
     </div>
     <br>
     <!-- start of smaller work containers -->
-    <div class="container my-container">     
+    <div class="container my-container">
         <div class="row justify-content-around my-row">
             <div class="col-md-3 my-col"></div>
             <div class="col-md-4 my-col">
-                <a href="https://jongudenzi.github.io/password-generator/" target="https://jongudenzi.github.io/password-generator/" id="workSmOne">
-                    <div class="title1">
-                        <h3>Password Generator</h3>
-                        <p>JavaScript</p>
+                <div id="workSmOne">
+                    <a href="https://github.com/JonGudenzi/Employee-Summary"
+                        target="https://github.com/JonGudenzi/Employee-Summary">
+                        <div class="title1">
+                            <h3>Employee-Summary</h3>
+                            <p>NodeJS</p>
+                        </div>
+                    </a>
+                    <div class="githubLink">
+                        <a class="githubText" href="https://github.com/JonGudenzi/Employee-Summary"
+                            target="https://github.com/JonGudenzi/Employee-Summary">Github Repo</a>
                     </div>
-                </a>
+                </div>
             </div>
             <div class="col-md-4 my-col">
-                <a href="https://jongudenzi.github.io/weather_dashboard/" target="https://jongudenzi.github.io/weather_dashboard/" id="workSmTwo">
-                    <div class="title2">
-                        <h3>Weather Dashboard</h3>
-                        <p>APIs / JavaScript</p>
-                    </div>
+                <div id="workSmTwo">
+                    <a href="https://jongudenzi.github.io/weather_dashboard/"
+                        target="https://jongudenzi.github.io/weather_dashboard/">
+                        <div class="title2">
+                            <h3>Weather Dashboard</h3>
+                            <p>APIs / JavaScript</p>
+                        </div>
+
+                        <div>
+                            <a class="githubText" href="https://github.com/JonGudenzi/weather_dashboard"
+                                target="https://github.com/JonGudenzi/weather_dashboard">Github Repo</a>
+                        </div>
+                </div>
                 </a>
             </div>
         </div>
     </div>
 
-    <div class="container my-container">     
+    <div class="container my-container">
         <div class="row justify-content-around my-row">
             <div class="col-md-3 my-col"></div>
             <div class="col-md-4 my-col">
-                <a href="https://jongudenzi.github.io/Work_Day_Scheduler/" target="https://jongudenzi.github.io/Work_Day_Scheduler/" id="workSmThree">
-                    <div class="title3">
-                        <h3>Work Day Schedule</h3>
-                        <p>MomentJS / Jquery</p>
-                    </div>
+                <div id="workSmThree">
+                    <a href="https://jongudenzi.github.io/Work_Day_Scheduler/"
+                        target="https://jongudenzi.github.io/Work_Day_Scheduler/">
+                        <div class="title3">
+                            <h3>Work Day Schedule</h3>
+                            <p>MomentJS / Jquery</p>
+                        </div>
+                        <div>
+                            <a class="githubText" href="https://github.com/JonGudenzi/Work_Day_Scheduler"
+                                target="https://github.com/JonGudenzi/Work_Day_Scheduler">Github Repo</a>
+                        </div>
+                </div>
                 </a>
             </div>
+
             <div class="col-md-4 my-col">
-                <a href="" id="workSmFour">
-                    <div class="title4">
-                        <h3>Calculator</h3>
-                        <p>React/JavaScript/CSS</p>
-                    </div>
+                <div id="workSmFour">
+                    <a href="https://jongudenzi.github.io/password-generator/"
+                        target="https://jongudenzi.github.io/password-generator/">
+                        <div class="title4">
+                            <h3>Password Generator</h3>
+                            <p>JavaScript</p>
+                        </div>
+                        <div>
+                            <a class="githubText" href="https://github.com/JonGudenzi/password-generator"
+                                target="https://github.com/JonGudenzi/password-generator">Github Repo</a>
+                        </div>
+                </div>
                 </a>
             </div>
         </div>
@@ -114,26 +155,27 @@
     <div class="container my-container">
         <div class="row justify-content-around my-row">
             <div class="col-md-3 my-col">
-               <h1 id="contactNav">Contact</h1>
+                <h1 id="contactNav">Contact</h1>
             </div>
             <div class="col-md-9 my-col" id="aboutMeContent">
 
                 <div class="row justify-content-center my-row">
-                <div class="col-md-6 my-col">
-                    <h1>Phone</h1>
-                    <p class="phone">704-957-1641</p>
-                </div>
+                    <div class="col-md-6 my-col">
+                        <h1>Phone</h1>
+                        <p class="phone">704-957-1641</p>
+                    </div>
                     <div class="col-md-6 my-col email">
-                    <h1>Email</h1>
-                   <a href="mailto:jongudenzi@gmail.com">jongudenzi@gmail.com</a>
+                        <h1>Email</h1>
+                        <a href="mailto:jongudenzi@gmail.com">jongudenzi@gmail.com</a>
                     </div>
                     <div class="col-md-6 my-col linkedIn">
                         <h1>LinkedIn</h1>
-                       <a href="https://www.linkedin.com/in/jon-gudenzi-8338041b6/" target="https://www.linkedin.com/in/jon-gudenzi-8338041b6/">Jon Gudenzi</a>
-                        </div>
+                        <a href="https://www.linkedin.com/in/jon-gudenzi-8338041b6/"
+                            target="https://www.linkedin.com/in/jon-gudenzi-8338041b6/">Jon Gudenzi</a>
+                    </div>
                     <div class="col-md-6 my-col github">
-                    <h1>GitHub</h1>
-                   <a href="https://github.com/JonGudenzi" target="https://github.com/JonGudenzi">JonGudenzi</a>
+                        <h1>GitHub</h1>
+                        <a href="https://github.com/JonGudenzi" target="https://github.com/JonGudenzi">JonGudenzi</a>
                     </div>
                 </div>
 
@@ -142,12 +184,13 @@
     </div>
 
     <footer>
-        
+
     </footer>
 
-
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+        crossorigin="anonymous"></script>
     <source src="assets/script.js">
 </body>
+
 </html>

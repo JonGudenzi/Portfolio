@@ -78,28 +78,30 @@ body{
     color: #ffffff;
     display: block;
     text-decoration: none;
-
-}
-
-#workContent:hover{
-    border: rgb(94, 240, 215) solid 8px;
-    opacity: .8;
-}
-
-.workdesc{
-    border-radius: 20px;
     height: 500px;
 }
 
 #largeWorkContainerTitle{
     display: inline-block;
+    margin-top: 325px;
+}
+
+.lgProject:hover{
+    border: rgb(94, 240, 215) solid 5px;
+    opacity: .8;
+}
+
+.lgProject{
+    display: inline-block;
     padding: 8px;
     background-image: linear-gradient(rgb(172, 207, 226)60%,rgb(252, 216, 249));
-    margin-top: 375px;
+    margin-top: 40px;
     margin-left: 10px;
     border-radius: 20px;
     border: turquoise solid 3px;
-    height: 80px;
+    height: 70px;
+    font-weight: bold;
+    text-decoration: none;
 }
 
 #largeWorkContainerTitle h3{
@@ -120,7 +122,7 @@ body{
     margin-bottom: 15px;
     width: auto;
     height: 150px;
-    background-image: url("../assets/images/passwordGenerator.PNG");
+    background-image: url("../assets/images/Employee-Summary.PNG");
     background-size: cover;
     border-radius: 20px;
     border: darkturquoise solid 5px;
@@ -128,27 +130,24 @@ body{
     text-decoration: none;
 }
 
-#workSmOne:hover{
-    border: rgb(94, 240, 215) solid 8px;
-    opacity: .8;
-}
-
 .title1{
     display: inline-block;
     padding: 3px;
     background-image: linear-gradient(rgb(172, 207, 226)60%,rgb(252, 216, 249));
-    margin-top: 60px;
+    margin-top: 50px;
     margin-left: 10px;
     border-radius: 20px;
     border: turquoise solid 3px;
     height: 55px;
     font-weight: bold;
+    text-decoration: none;
 }
 
 .title1 h3{
     font-size: 14px;
     text-align: center;
     color:black;
+    
 }
     
 .title1 p{
@@ -156,6 +155,13 @@ body{
     text-align: center;
     color:black;
 }
+
+.title1:hover{
+    border: rgb(94, 240, 215) solid 5px;
+    opacity: .8;
+}
+
+
 
 #workSmTwo{
     margin-bottom: 15px;
@@ -170,16 +176,12 @@ body{
     text-decoration: none;
 }
 
-#workSmTwo:hover{
-    border: rgb(94, 240, 215) solid 8px;
-    opacity: .8;
-}
 
 .title2{
     display: inline-block;
     padding: 3px;
     background-image: linear-gradient(rgb(172, 207, 226)60%,rgb(252, 216, 249));
-    margin-top: 60px;
+    margin-top: 50px;
     margin-left: 10px;
     border-radius: 20px;
     border: turquoise solid 3px;
@@ -199,6 +201,11 @@ body{
     color:black;
 }
 
+.title2:hover{
+    border: rgb(94, 240, 215) solid 5px;
+    opacity: .8;
+}
+
 #workSmThree{
     margin-bottom: 15px;
     width: auto;
@@ -212,8 +219,8 @@ body{
     text-decoration: none;
 }
 
-#workSmThree:hover{
-    border: rgb(94, 240, 215) solid 8px;
+.title3:hover{
+    border: rgb(94, 240, 215) solid 5px;
     opacity: .8;
 }
 
@@ -221,7 +228,7 @@ body{
     display: inline-block;
     padding: 3px;
     background-image: linear-gradient(rgb(172, 207, 226)60%,rgb(252, 216, 249));
-    margin-top: 60px;
+    margin-top: 50px;
     margin-left: 10px;
     border-radius: 20px;
     border: turquoise solid 3px;
@@ -245,7 +252,7 @@ body{
     margin-bottom: 15px;
     width: auto;
     height: 150px;
-    background-image: url("../assets/images/calculator.jpg");
+    background-image: url("../assets/images/passwordGenerator.PNG");
     background-repeat: repeat;
     background-size: cover;
     border-radius: 20px;
@@ -254,8 +261,8 @@ body{
     text-decoration: none;
 }
 
-#workSmFour:hover{
-    border: rgb(94, 240, 215) solid 8px;
+.title4:hover{
+    border: rgb(94, 240, 215) solid 5px;
     opacity: .8;
 }
 
@@ -263,7 +270,7 @@ body{
     display: inline-block;
     padding: 3px;
     background-image: linear-gradient(rgb(172, 207, 226)60%,rgb(252, 216, 249));
-    margin-top: 60px;
+    margin-top: 50px;
     margin-left: 10px;
     border-radius: 20px;
     border: turquoise solid 3px;
@@ -283,6 +290,26 @@ body{
     color:black;
 }
 
+.githubText{
+    margin-left: 30px;
+    background-image: linear-gradient(rgb(172, 207, 226)60%,rgb(252, 216, 249));
+    border-radius: 20px;
+    padding: 1px;
+    text-decoration: none;
+    color: black;
+    border: rgb(94, 240, 215) solid 2px;
+    display: inline-block;
+    margin-top: 4px;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.githubText:hover{
+    border: rgb(94, 240, 215) solid 3px;
+    opacity: .8;
+}
+
+/* Start of contact section */
 #contactContent{
     border: darkturquoise solid 5px;
     border-radius: 20px;
