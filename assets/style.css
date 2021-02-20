@@ -121,7 +121,7 @@ body{
 #workSmOne{
     margin-bottom: 15px;
     width: auto;
-    height: 150px;
+    height: 200px;
     background-image: url("../assets/images/Employee-Summary.PNG");
     background-size: cover;
     border-radius: 20px;
@@ -134,7 +134,7 @@ body{
     display: inline-block;
     padding: 3px;
     background-image: linear-gradient(rgb(172, 207, 226)60%,rgb(252, 216, 249));
-    margin-top: 50px;
+    margin-top: 95px;
     margin-left: 10px;
     border-radius: 20px;
     border: turquoise solid 3px;
@@ -166,7 +166,7 @@ body{
 #workSmTwo{
     margin-bottom: 15px;
     width: auto;
-    height: 150px;
+    height: 200px;
     background-image: url("../assets/images/weatherDashboard.PNG");
     background-repeat: repeat;
     background-size: cover;
@@ -181,7 +181,7 @@ body{
     display: inline-block;
     padding: 3px;
     background-image: linear-gradient(rgb(172, 207, 226)60%,rgb(252, 216, 249));
-    margin-top: 50px;
+    margin-top: 95px;
     margin-left: 10px;
     border-radius: 20px;
     border: turquoise solid 3px;
@@ -209,7 +209,7 @@ body{
 #workSmThree{
     margin-bottom: 15px;
     width: auto;
-    height: 150px;
+    height: 200px;
     background-image: url("../assets/images/workDay.PNG");
     background-repeat: repeat;
     background-size: cover;
@@ -228,7 +228,7 @@ body{
     display: inline-block;
     padding: 3px;
     background-image: linear-gradient(rgb(172, 207, 226)60%,rgb(252, 216, 249));
-    margin-top: 50px;
+    margin-top: 95px;
     margin-left: 10px;
     border-radius: 20px;
     border: turquoise solid 3px;
@@ -251,7 +251,7 @@ body{
 #workSmFour{
     margin-bottom: 15px;
     width: auto;
-    height: 150px;
+    height: 200px;
     background-image: url("../assets/images/burgerApp.PNG");
     background-repeat: repeat;
     background-size: cover;
@@ -268,9 +268,9 @@ body{
 
 .title4{
     display: inline-block;
-    padding: 3px;
+    padding: 5px;
     background-image: linear-gradient(rgb(172, 207, 226)60%,rgb(252, 216, 249));
-    margin-top: 50px;
+    margin-top: 95px;
     margin-left: 10px;
     border-radius: 20px;
     border: turquoise solid 3px;
@@ -291,10 +291,10 @@ body{
 }
 
 .githubText{
-    margin-left: 30px;
+    margin-left: 10px;
     background-image: linear-gradient(rgb(172, 207, 226)60%,rgb(252, 216, 249));
     border-radius: 20px;
-    padding: 1px;
+    padding: 4px;
     text-decoration: none;
     color: black;
     border: rgb(94, 240, 215) solid 2px;
