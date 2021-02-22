@@ -18,6 +18,11 @@ body{
         font-size: 60px;
 }
 
+a:hover{
+       text-decoration: none;
+       color: white;
+}
+
 .navText{
     color: white;
     text-decoration: none;
@@ -28,9 +33,10 @@ body{
     justify-content: space-between;
     width: 800px;
     margin-right: 100px;
+   
 }
 
-.nav-item:hover{
+.navText:hover{
     border-bottom: 4px solid rgb(94, 240, 215);
 }
 
@@ -67,6 +73,17 @@ body{
     background-image: linear-gradient(rgb(172, 207, 226)60%,rgb(252, 216, 249));
     color: black;
     font-size: 28px;
+}
+
+
+#extraWork {
+    border: darkturquoise solid 5px;
+    border-radius: 20px;
+    padding: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-image: linear-gradient(rgb(172, 207, 226)60%,rgb(252, 216, 249));
+    color: black;
+    font-size: 20px;
 }
 
 #workContent {
@@ -308,6 +325,14 @@ body{
     border: rgb(94, 240, 215) solid 3px;
     opacity: .8;
 }
+
+/* /////////////////new stuff/////////////// */
+
+.slide{
+    justify-content: end;
+}
+
+
 
 /* Start of contact section */
 #contactContent{
