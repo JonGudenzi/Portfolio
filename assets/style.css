@@ -147,20 +147,26 @@ a:hover{
 #workSmOne:hover{
     transform: scale(1.2);
     background-color: black;
-    background-image: none;
+    background-image: url("../assets/images/beachgif2.gif");
     color: white;
     transition: 600ms ease-in;
+    background-position: left;
     
 }
 
 #workSmOne:hover::before{
     content: attr(data-text);
-    margin-top: 0%;
+    margin-top: 5px;
     margin-left: 40%;
+    margin-right: 4px;
     position: fixed;
     font-size: 12px;
     font-weight: bold;
     padding: 3px;
+    background-color: black;
+    border: solid turquoise;
+    border-radius: 20px;
+    text-align: center;
 }
 
 
@@ -210,19 +216,25 @@ a:hover{
 #workSmTwo:hover{
     transform: scale(1.2);
     background-color: black;
-    background-image: none;
+    background-image: url("../assets/images/CalmBeach.gif");
     color: white;
     transition: 600ms ease-in;
+    background-position: left;
 }
 
 #workSmTwo:hover::before{
-    content: attr(data-text);
-    margin-top: 0%;
+    content: attr(data-text2);
+    margin-top: 5px;
     margin-left: 40%;
+    margin-right: 4px;
     position: fixed;
     font-size: 12px;
     font-weight: bold;
     padding: 3px;
+    background-color: black;
+    border: solid turquoise;
+    border-radius: 20px;
+    text-align: center;
 }
 
 .title2{
