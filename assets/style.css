@@ -106,6 +106,27 @@ a:hover{
     opacity: .8;
 }
 
+#workContent:hover{
+    transform: scale(1);
+    background-color: black;
+    color: white;
+}
+
+#workContent:hover::before{
+    content: attr(data-bigWork);
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 4px;
+    position: fixed;
+    font-size: 15px;
+    /* font-weight: bold; */
+    padding: 3px;
+    background-color: black;
+    border: solid turquoise;
+    border-radius: 20px;
+    text-align: center;
+}
+
 .lgProject{
     display: inline-block;
     padding: 8px;
@@ -123,7 +144,6 @@ a:hover{
     font-size: 18px;
     text-align: center;
     color:black;
-    
 }
 
 #largeWorkContainerTitle p{
@@ -142,6 +162,7 @@ a:hover{
     display: block;
     text-decoration: none;
     position: relative;
+    
 }
 
 #workSmOne:hover{
@@ -151,22 +172,22 @@ a:hover{
     color: white;
     transition: 600ms ease-in;
     background-position: left;
-    
 }
 
 #workSmOne:hover::before{
     content: attr(data-text);
     margin-top: 5px;
-    margin-left: 40%;
+    margin-left: 5px;
     margin-right: 4px;
     position: fixed;
-    font-size: 12px;
+    font-size: 9px;
     font-weight: bold;
     padding: 3px;
     background-color: black;
     border: solid turquoise;
     border-radius: 20px;
     text-align: center;
+    
 }
 
 
@@ -225,10 +246,10 @@ a:hover{
 #workSmTwo:hover::before{
     content: attr(data-text2);
     margin-top: 5px;
-    margin-left: 40%;
-    margin-right: 4px;
+    margin-left: 5px;
+    margin-right: 5px;
     position: fixed;
-    font-size: 12px;
+    font-size: 9.5px;
     font-weight: bold;
     padding: 3px;
     background-color: black;
@@ -297,10 +318,10 @@ a:hover{
 #workSmThree:hover::before{
     content: attr(data-text3);
     margin-top: 5px;
-    margin-left: 40%;
+    margin-left: 5px;
     margin-right: 4px;
     position: fixed;
-    font-size: 12px;
+    font-size: 9.5px;
     font-weight: bold;
     padding: 3px;
     background-color: black;
@@ -363,10 +384,10 @@ a:hover{
 #workSmFour:hover::before{
     content: attr(data-text4);
     margin-top: 5px;
-    margin-left: 40%;
+    margin-left: 5px;
     margin-right: 4px;
     position: fixed;
-    font-size: 12px;
+    font-size: 9.5px;
     font-weight: bold;
     padding: 3px;
     background-color: black;
