@@ -284,6 +284,31 @@ a:hover{
     opacity: .8;
 }
 
+
+#workSmThree:hover{
+    transform: scale(1.2);
+    background-color: black;
+    background-image: url("../assets/images/gifbeach.gif");
+    color: white;
+    transition: 600ms ease-in;
+    background-position: left;
+}
+
+#workSmThree:hover::before{
+    content: attr(data-text3);
+    margin-top: 5px;
+    margin-left: 40%;
+    margin-right: 4px;
+    position: fixed;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 3px;
+    background-color: black;
+    border: solid turquoise;
+    border-radius: 20px;
+    text-align: center;
+}
+
 .title3{
     display: inline-block;
     padding: 3px;
@@ -324,6 +349,30 @@ a:hover{
 .title4:hover{
     border: rgb(94, 240, 215) solid 5px;
     opacity: .8;
+}
+
+#workSmFour:hover{
+    transform: scale(1.2);
+    background-color: black;
+    background-image: url("../assets/images/YrxEeP2.gif");
+    color: white;
+    transition: 600ms ease-in;
+    background-position: left;
+}
+
+#workSmFour:hover::before{
+    content: attr(data-text4);
+    margin-top: 5px;
+    margin-left: 40%;
+    margin-right: 4px;
+    position: fixed;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 3px;
+    background-color: black;
+    border: solid turquoise;
+    border-radius: 20px;
+    text-align: center;
 }
 
 .title4{
